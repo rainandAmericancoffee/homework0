@@ -1,1 +1,1 @@
-做了基础的三个作业； blink为基础使用HALDelay的闪灯实验，一颗板载LED，一颗外接LED MYDELAY为作业二，自制延迟函数，用的定时器，用的板载LED； EXTI为作业三；
+做了基础的三个作业； blink为基础使用HALDelay的闪灯实验，一颗板载LED，一颗外接LED，这个没啥好说的，haldelay延时喵； MYDELAY为作业二，自制延迟函数MyGetTick，用的定时器，用的TIM1，update触发中断，中断后MilliSeconds++,以此来计时，用的板载LED； EXTI为作业三，ExTI中断回调函数，设置成pull——up后，只要按下按钮，就会被读到，然后触发回调函数，haldelay消抖20，之后按理来说用翻转更方便，但我写的麻烦了些，我当时不知道这个函数；
